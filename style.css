@@ -26,9 +26,22 @@ nav a {
     text-decoration: none;
 }
 
+main {
+    padding: 20px;
+}
+
+.instagram-embed {
+    margin-bottom: 20px;
+}
+
+.instagram-embed blockquote {
+    width: 100%;
+    height: auto;
+    min-height: 400px; /* Adjust as needed */
+}
+
 @media (max-width: 600px) {
-    nav ul li {
-        display: block;
-        text-align: left;
+    .instagram-embed blockquote {
+        min-height: 200px; /* Adjust for smaller screens */
     }
 }
