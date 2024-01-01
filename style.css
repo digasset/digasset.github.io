@@ -24,6 +24,12 @@ nav ul li {
 nav a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active{
+    color: lightgrey;
+    text-decoration: bold;
 }
 
 main {
@@ -32,6 +38,7 @@ main {
 
 .instagram-embed {
     margin-bottom: 20px;
+    display:inline-block;
 }
 
 .instagram-embed blockquote {
