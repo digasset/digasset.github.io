@@ -51,6 +51,7 @@ main {
     display:inline-block;
     border: 1px solid #ccc;
     border-radius: 5px;
+    vertical-align: top;
 }
 
 .instagram-embed blockquote {
